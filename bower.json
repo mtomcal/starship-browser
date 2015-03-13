@@ -1,0 +1,12 @@
+{
+  "name": "react-nodejs-boilerplate",
+  "version": "0.1.0",
+  "authors": [
+    "Michael Tomcal <michael@twoeyetech.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
