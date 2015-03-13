@@ -8,7 +8,7 @@ var {
 } = require('react-router-async-props');
 
 document.addEventListener("DOMContentLoaded", function (event) {
-    run(Routes, Router.HistoryLocation, function (Handler, state) {
+    Router.run(Routes, Router.HistoryLocation, function (Handler, state) {
         React.render(<Handler/>, document.body);
     });
 });
